@@ -40,7 +40,7 @@
 		<!-- core module -->
 		<dependency>
 			<groupId>com.vishnu</groupId>
-			<artifactId>shopping-core</artifactId>
+			<artifactId>gtg-core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- Add typical dependencies for a web application -->
