@@ -39,7 +39,7 @@
 	<dependencies>
 		<!-- core module -->
 		<dependency>
-			<groupId>com.vishnu</groupId>
+			<groupId>com.gtg</groupId>
 			<artifactId>gtg-core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
@@ -51,11 +51,8 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
-		<!-- <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-mail</artifactId>
-			<version>1.4.0.RELEASE</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-mail</artifactId> 
+			<version>1.4.0.RELEASE</version> </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
 		<dependency>
@@ -66,7 +63,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
+			<version>5.1.6</version><!--$NO-MVN-MAN-VER$-->
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
@@ -75,18 +72,10 @@
 			<artifactId>spring-boot-starter-velocity</artifactId>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>javax.mail-api</artifactId>
-			<version>1.5.4</version>
-		</dependency>
+		<!-- <dependency> <groupId>javax.mail</groupId> <artifactId>javax.mail-api</artifactId> 
+			<version>1.5.4</version> </dependency> <dependency> <groupId>com.sun.mail</groupId> 
+			<artifactId>javax.mail</artifactId> <version>1.5.4</version> </dependency> -->
 
-		<dependency>
-			<groupId>com.sun.mail</groupId>
-			<artifactId>javax.mail</artifactId>
-			<version>1.5.4</version>
-		</dependency> -->
-		
 		<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
 		<dependency>
 			<groupId>javax.mail</groupId>
@@ -101,7 +90,7 @@
 			<artifactId>mail</artifactId>
 			<version>1.4.7</version>
 		</dependency>
-		
+
 
 		<!-- Need for file upload -->
 
