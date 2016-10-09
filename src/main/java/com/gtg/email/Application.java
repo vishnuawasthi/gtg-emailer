@@ -20,7 +20,8 @@ import com.gtg.email.service.EmailSenderService;
 @ComponentScan(basePackages = { 
 		"com.gtg.email",
 		"com.gtg.email.service",
-		"com.gtg.email.config" })
+		"com.gtg.email.config",
+		"com.gtg.core.repository"})
 public class Application implements CommandLineRunner {
 
 	@Autowired

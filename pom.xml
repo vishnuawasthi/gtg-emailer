@@ -6,12 +6,20 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>gtg-emailer</name>
+	<properties>
+		<!-- The main class to start by executing java -jar -->
+		<start-class>com.gtg.core.Application</start-class>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
 
 	<!-- Inherit defaults from Spring Boot -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.1.8.RELEASE</version>
+		<!-- <version>1.1.8.RELEASE</version> -->
+		<version>1.4.1.RELEASE</version>
+		<!-- <version>1.1.8.RELEASE</version> -->
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
@@ -60,11 +68,8 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version><!--$NO-MVN-MAN-VER$ -->
-		</dependency>
+		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
+			<version>5.1.6</version>$NO-MVN-MAN-VER$ </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
 		<dependency>
@@ -158,6 +163,7 @@
 		<!-- MAil API -->
 		<!-- <dependency> <groupId>com.sun.mail</groupId> <artifactId>javax.mail</artifactId> 
 			<version>1.5.2</version> </dependency> -->
+
 	</dependencies>
 	<!-- <repositories> project lombok is not yet in public maven repo <repository> 
 		<id>projectlombok.org</id> <url>http://projectlombok.org/mavenrepo</url> 
